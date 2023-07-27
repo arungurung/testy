@@ -12,15 +12,10 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		This is a simple website I'm using to test out all the new features that I find interesting.
 	</p>
 
-	<pre>npm create svelte@latest</pre>
-
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		I like to try all the new incoming features. Currently, this page is running on Svelte with SvelteKit. I'm also using <code>gh-pages</code> to deploy to Github Pages.
 	</p>
 </div>
