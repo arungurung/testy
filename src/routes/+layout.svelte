@@ -1,6 +1,8 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+
+	let name = 'Arun <i>Gurung</i>'
 </script>
 
 <div class="app">
@@ -11,7 +13,7 @@
 	</main>
 
 	<footer>
-		<p>Created by <a href="https://github.com/arungurung">Arun Gurung</a>.</p>
+		<p>Created by <a href="https://github.com/arungurung">{@html name}</a>.</p>
 	</footer>
 </div>
 
