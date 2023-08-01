@@ -1,16 +1,22 @@
 <script>
 	import { page } from '$app/stores';
-	import {base} from '$app/paths';
+	import { base } from '$app/paths';
 </script>
 
 <header>
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname === "{base}/" ? 'page' : undefined}>
+			<li aria-current={$page.url.pathname === '{base}/' ? 'page' : undefined}>
 				<a href="{base}/">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '{base}/about' ? 'page' : undefined}>
 				<a href="{base}/about">About</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/basics' ? 'page' : undefined}>
+				<a href="{base}/basics">Basics</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/events' ? 'page' : undefined}>
+				<a href="{base}/events">Events</a>
 			</li>
 		</ul>
 	</nav>

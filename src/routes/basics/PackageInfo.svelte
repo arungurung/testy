@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let name: string;
-	export let version: string;
+	export let version: number;
 	export let speed: string;
 	export let website: string;
 
