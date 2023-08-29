@@ -18,6 +18,21 @@
 			<li aria-current={$page.url.pathname === '{base}/events' ? 'page' : undefined}>
 				<a href="{base}/events">Events</a>
 			</li>
+			<li aria-current={$page.url.pathname === '{base}/bindings' ? 'page' : undefined}>
+				<a href="{base}/bindings">Bindings</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/lifecycle' ? 'page' : undefined}>
+				<a href="{base}/lifecycle">Lifecycle</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/stores' ? 'page' : undefined}>
+				<a href="{base}/stores">stores</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/motion' ? 'page' : undefined}>
+				<a href="{base}/motion">motion</a>
+			</li>
+			<li aria-current={$page.url.pathname === '{base}/todo' ? 'page' : undefined}>
+				<a href="{base}/todo">todo</a>
+			</li>
 		</ul>
 	</nav>
 </header>

@@ -1,6 +1,27 @@
 <script lang="ts">
+	import BigRedButton from './BigRedButton.svelte';
+	import Outer from './Outer.svelte';
+	import horn from './horn.mp3';
+
 	let m = { x: 0, y: 0 };
+	let name = 'world';
+
+	const handleMessage = (e: CustomEvent<any>) => {
+		alert(e.detail.text);
+	};
+
+	const audio = new Audio();
+	audio.src = horn;
+
+	const handlePlay = () => {
+		audio.play();
+	};
 </script>
+
+<Outer on:message={handleMessage} />
+
+<!-- data flows from top down in Svelte -->
+<BigRedButton on:click={handlePlay} />
 
 <p>
 	modifiers
